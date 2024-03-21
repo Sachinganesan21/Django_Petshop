@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>{% block title %} {% endblock %}</title>
+    {%include 'link.html'%}
+
+</head>
+<body>
+    {%include 'nav.html'%}
+
+    <div style="border: 5px;">
+
+    
+    {% block content %}  
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sint est provident facere tenetur quisquam quam, iusto magni exercitationem hic alias culpa ducimus id dolorem quod, necessitatibus labore excepturi unde!</p>
+    
+    {% endblock %}
+
+    </div>
+    
+
+</body>
+</html>

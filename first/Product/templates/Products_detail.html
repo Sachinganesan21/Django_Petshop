@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    {% include 'link.html'%}
+</head>
+<body>
+    <h1>Detail view</h1>
+
+    <ul>
+
+        <li>{{P.Product_name}}</li>
+        <li>{{P.Product_description}}</li>
+
+
+    </ul>
+    {%  include 'nav.html' %}
+
+</body>
+</html>
